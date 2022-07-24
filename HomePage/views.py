@@ -8,3 +8,7 @@ def index(request):
 def login(request):
     htmlpage = loader.get_template('login.html')
     return HttpResponse(htmlpage.render())
+
+def aboutme(request):
+    htmlpage = loader.get_template('aboutme.html')
+    return HttpResponse(htmlpage.render())
