@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(black,black,black,indigo,black);
+    background-attachment: fixed;
+}
+h1 {
+    color: white;
+    font-family: 'Verdana';
+    font-size: 40px;
+}
+p {
+    color: white;
+    font-family: 'Courier New';
+    font-size: 20px;
+}
+#ghimage {
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 50%;
+    display:inline-block;
+    border-color:indigo;
+    position: static;
+}
+#ghimage:hover {
+    box-shadow: 0px 0px 50px #0600b3;
+}
+#GithubLink {
+    font-family: 'Roboto';
+    color:#FFFF00;
+    font-size: 20px;
+}
+#portrait {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    border-color: #FFFF00;
+}
+#titlebar {
+    background-color: #4000ff51;
+    border-style: solid;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-color:#FFFF00;
+    position: sticky;
+    top: 5px;
+    width: 75vw;
+    padding: 10px;
+    margin: 30px;
+}
+.spacer {
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+footer {
+    background-color: #3b3b3b;
+}

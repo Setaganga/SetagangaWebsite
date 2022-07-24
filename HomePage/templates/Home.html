@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>
+        Setaganga
+    </title>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'css/favicon.ico' %}" />
+</head>
+<body>
+    <center>
+        <div id="titlebar">
+            <h1>
+                Welcome to Setaganga's Super Cool Website!
+            </h1>
+        </div>
+        <p>
+            This is my first big project I've done: A website I built on the Django Framework.<br>
+            I hope to update it in the future as I start to learn more about front end dev.<br>
+        </p>
+        <p id="GithubLink">
+            Click the mushrooms to be taken to my github.
+        </p>
+        <a href="https://www.github.com/Setaganga">
+            <img src='{% static "images/mushroom.jpg" %}' alt="Mushroom Picture" height="500px" width="500px" id="ghimage" style="margin-bottom: 100px;">
+        </a>
+    </p>
+
+    <hr style="color: indigo; size: 10px;">
+
+    <img src="{% static 'images/joren.png' %}" alt="Portrait of Joren" height="400px" width="400px" id="portrait" style="margin-top: 100px;">
+    </center>
+
+    <div style="float: left; text-align: left; padding-left: 25px;">
+        <h2 style="color: white; font-size: 40px; font-family: Verdana;">So who am I?</h2>
+        <p>My name is Joren Nicholas and I am an aspiring<br>software or back end developer. I love the <br> workings of databases and the behind the scenes.<br>I want to be part of that world.</p>
+    </div>
+
+    <div style="text-align: right; padding-right: 25px;">
+        <h2 style="color: white; font-size: 40px; font-family: Verdana;">What do I do?</h2>
+        <p>I do random projects geared towards backend,<br>I use <span style="color:#4B8BBE">Python</span>, <span style="color: #F0DB4F;">Javascript</span>, and <span style="color:#5C6BC0;">C</span> as my main languages,<br>and am taking the Harvard CS50x Course</p>
+    </div>
+
+    <br><br><br><br><br>
+    <center>
+        <div style="clear: both;">
+                <img src="{% static 'images/python.png' %}" alt="Python" height="150px" width="150px" class="spacer">
+                <img src="{% static 'images/javascript.png' %}" alt="Javascript" height="150px" width="150px" class="spacer">
+                <img src="{% static 'images/c.png' %}" alt="C" height="150px" width="150px" class="spacer">
+                <img src="{% static 'images/php.png' %}" alt="PHP" height="75px" width="150px" class="spacer">
+                <img src="{% static 'images/java.png' %}" alt="Java" height="150px" width="150px" class="spacer">
+            
+        </div>
+
+        <footer>
+            <p>Login | About Me | Projects | Contact Me | Github | My Goals</p>
+        </footer>
+
+    </center>
+</body>
+</html>

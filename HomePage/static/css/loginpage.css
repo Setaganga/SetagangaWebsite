@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(black,black,black,indigo,black);
+    background-attachment: fixed;
+}
+h1 {
+    font-size: 40px;
+    font-family: Verdana;
+    color: #FFFF00;
+}
+p {
+    font-size: 20px;
+    font-family: 'Courier New';
+    color: white;
+}

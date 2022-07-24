@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>
+        Login - Setaganga
+    </title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/loginpage.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'css/favicon.ico' %}" />
+</head>
+<body>
+    <center>
+        <h1 id="Title">
+            Login Here: 
+        </h1>
+        <form action="process/" method="post">
+            {% csrf_token %}
+            <label for="usr"><p>Username:</p></label><br>
+            <input name="usr"><br>
+            <label for="pwd"></label><p>Password:</p></label><br>
+            <input type="password" name="pwd" minlength="8"><br><br>
+            <button type="submit">Log In</button>
+        </form>
+    </center>
+    </p>
+</body>
+</html>
