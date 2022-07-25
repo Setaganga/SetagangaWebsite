@@ -55,3 +55,13 @@ p {
 footer {
     background-color: #3b3b3b;
 }
+#spacer100px {
+    display: inline-block;
+    margin: 50px auto;
+}
+a {
+    color: #4c93ff;
+}
+a:visited {
+    color: #4c93ff;
+}
